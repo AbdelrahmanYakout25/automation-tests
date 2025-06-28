@@ -1,14 +1,5 @@
-# Ignore system folders
-AppData/
-Application Data/
-Local Settings/
-Cookies/
-Documents/My Music/
-Documents/My Pictures/
-Documents/My Videos/
-Temporary Internet Files/
+.idea/
+*.iml
+target/
+*.class
 *.log
-*.tmp
-*.bak
-# Project exclude paths
-/target/
