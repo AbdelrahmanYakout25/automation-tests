@@ -21,7 +21,7 @@ public class BaseTests {
     }
     @BeforeMethod
     public void goHome(){   
-        driver.get("https://the-internet.herokuapp.com/");
+            driver.get("https://the-internet.herokuapp.com/");
     }
     @AfterClass
     public void tearDown(){

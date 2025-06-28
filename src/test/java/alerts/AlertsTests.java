@@ -14,7 +14,7 @@ public class AlertsTests extends BaseTests {
         JSAlertsPage jsAlertsPage = homepage.clickOnJavaScriptAlertsLink();
         jsAlertsPage.clickOnJsAlertButton();
         jsAlertsPage.acceptAlert();
-        String actual = jsAlertspAge.getValidationMessage();
+        String actual = jsAlertsPage.getValidationMessage();
         String expect = "You successfully clicked an alert";
         assertEquals(actual,expect);
     }

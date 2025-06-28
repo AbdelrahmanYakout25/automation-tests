@@ -13,7 +13,7 @@ import static org.testng.AssertJUnit.assertTrue;
 public class ForgetPasswordTest extends BaseTests {
 
     @Test
-    public void testForgetPassword() {
+    public void testForgetPasswordWithData() {
         ForgetPasswordPage forgetPasswordPage =homepage.clickOnForgetPasswordLink();
         forgetPasswordPage.insertEmail("abdo_1588");
         ForgetPasswordPage2 forgetPasswordPage2 = forgetPasswordPage.clickOnRetrievePasswordButton();
@@ -24,7 +24,7 @@ public class ForgetPasswordTest extends BaseTests {
         assertEquals(actual,expect);
     }
     @Test
-    public void testForgetPassword2()
+    public void testForgetPasswordWithoutData()
     {
         driver.findElement(By.linkText("Forgot Password")).click();
 
