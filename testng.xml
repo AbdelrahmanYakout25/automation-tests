@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AllTestsSuite">
+    <test name="Automation Test Suite">
+        <classes>
+            <class name="base.BaseTests"/>
+            <class name="alerts.AlertsTests"/>
+            <class name="checkBoxTest.CheckBoxTests"/>
+            <class name="dragAndDrop.DragAndDropTests"/>
+            <class name="dropDown.DropDownTests"/>
+            <class name="fileUploadTest.FileUploadTests"/>
+            <class name="forGetPassword.ForgetPasswordTest"/>
+            <class name="frame.FrameTests"/>
+            <class name="hovers.HoversTests"/>
+            <class name="Login.LoginTests"/>
+            <class name="statusCodeTest.StatusCodeTests"/>
+            <class name="wait.DynamicLoadingTests"/>
+        </classes>
+    </test>
+</suite>

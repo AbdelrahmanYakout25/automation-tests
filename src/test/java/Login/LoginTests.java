@@ -29,7 +29,7 @@ public class LoginTests extends BaseTests {
     {
         LoginPage loginPage =homepage.clickOnFormAuthenticationLink();
 
-        loginPage.insertUsername("tomsmixth");
+        loginPage.insertUsername("tomsmix1th");
         loginPage.insertPassword("SuperSecretPassword!");
         SecureAreaPage secureAreaPage =loginPage.clickOnLoginButton();
 

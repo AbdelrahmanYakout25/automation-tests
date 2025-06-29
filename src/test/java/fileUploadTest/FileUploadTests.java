@@ -17,11 +17,18 @@ public class FileUploadTests extends BaseTests {
         FileUploadPage fileUploadPage = homepage.clickOnFileUploadLink();
         fileUploadPage.clickOnChooseFileButton();
         UploadedPage uploadedPage =  fileUploadPage.clickOnUploadButton();
-
-
         String actual = uploadedPage.getFileUploadMassage();
         String expect = "File Uploaded!";
-
         assertEquals(actual,expect);
+    }
+
+    @Test
+    public void testUploadFileFail()
+    {
+        FileUploadPage fileUploadPage = homepage.clickOnFileUploadLink();
+        fileUploadPage.clickOnUploadButton2();
+        String actual = fileUploadPage.getErrorInUploadMassage();
+        String expect = "Internal Server Error";
+        assertTrue(actual.contains("Internal Server Error"));
     }
 }

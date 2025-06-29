@@ -10,14 +10,21 @@ public class FileUploadPage {
     }
     private final By chooseFileButton = By.cssSelector("#file-upload");
     private final By uploadButton = By.cssSelector("input[id='file-submit']");
+    private final By errorInUploadMassage = By.xpath("//h1[contains(text(),'Internal Server Error')]");
 
     public void clickOnChooseFileButton(){
-        driver.findElement(chooseFileButton).sendKeys("C:\\Users\\abdel\\OneDrive\\Desktop\\testfile25.docx");
+        driver.findElement(chooseFileButton).sendKeys("C:\\Users\\ASUS TUF\\OneDrive\\Desktop\\TestFile.txt");
     }
 
     public UploadedPage clickOnUploadButton(){
         driver.findElement(uploadButton).click();
         return new UploadedPage(driver);
     }
-
+    public String getErrorInUploadMassage(){
+        return driver.findElement(errorInUploadMassage).getText();
+    }
+    public void clickOnUploadButton2() {
+        driver.findElement(uploadButton).click();
+        return;
+    }
 }
