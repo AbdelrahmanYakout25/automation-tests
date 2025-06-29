@@ -1,21 +1,28 @@
-# Automation Tests
-This project contains automated tests written in Java using Selenium WebDriver and TestNG.
 
-## 🛠 Tools & Technologies :
-- Java
+---
+
+## ✅ Features
+
+- 🧪 Multiple UI test cases from Herokuapp
+- ♻️ Page Object Model design pattern
+- 🚀 Easy configuration via TestNG XML
+- 🧱 Modular & scalable structure
+- 📄 Automatically generated TestNG reports
+
+---
+
+## ⚙️ Tools & Technologies
+
+- Java 17+
 - Selenium WebDriver
 - TestNG
-- Git & GitHub
+- Maven
+- IntelliJ IDEA
+- Git / GitHub
 
+---
 
-## 🚀 How to Run Tests
-1. Open the project in IntelliJ IDEA.
-2. Make sure dependencies (like Selenium & TestNG) are configured.
-3. Right-click the test class and select **Run**.
-
-## 🧪 Test Status: In Progress
-
-## ✅ Author
-
-- [Abdelrahman Yakout](https://github.com/AbdelrahmanYakout25)
-
+## 🚦 How to Run
+Clone the repository:
+   ```bash
+   git clone https://github.com/AbdelrahmanYakout25/automation-tests.git
