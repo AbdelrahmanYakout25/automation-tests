@@ -20,7 +20,7 @@ public class BaseTests {
         homepage = new HomePage(driver);
     }
     @BeforeMethod
-    public void goHome(){
+    public void goHome(){   
         driver.get("https://the-internet.herokuapp.com/");
     }
     @AfterClass
