@@ -10,7 +10,12 @@ public class UploadedPage {
     }
     private final By fileUploadMassage = By.xpath("//*[contains(text(),'File Uploaded!')]");
 
+
+
     public String getFileUploadMassage(){
+
         return driver.findElement(fileUploadMassage).getText();
     }
+
+
 }
