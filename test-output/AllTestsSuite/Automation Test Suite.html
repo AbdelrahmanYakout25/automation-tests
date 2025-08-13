@@ -1,0 +1,210 @@
+<html>
+<head>
+<title>TestNG:  Automation Test Suite</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Automation Test Suite</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>26/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jun 29 05:56:13 EEST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>61 seconds (61644 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='dragAndDrop.DragAndDropTests.testDragAndDropAToB()'><b>testDragAndDropAToB</b><br>Test class: dragAndDrop.DragAndDropTests</td>
+<td></td>
+<td>0</td>
+<td>dragAndDrop.DragAndDropTests@4562e04d</td></tr>
+<tr>
+<td title='wait.DynamicLoadingTests.testExampleTwo()'><b>testExampleTwo</b><br>Test class: wait.DynamicLoadingTests</td>
+<td></td>
+<td>5</td>
+<td>wait.DynamicLoadingTests@40005471</td></tr>
+<tr>
+<td title='fileUploadTest.FileUploadTests.testUploadFileFail()'><b>testUploadFileFail</b><br>Test class: fileUploadTest.FileUploadTests</td>
+<td></td>
+<td>0</td>
+<td>fileUploadTest.FileUploadTests@78691363</td></tr>
+<tr>
+<td title='Login.LoginTests.testvalidUsernameandPassword()'><b>testvalidUsernameandPassword</b><br>Test class: Login.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>Login.LoginTests@229f66ed</td></tr>
+<tr>
+<td title='Login.LoginTests.testInvalidPassword()'><b>testInvalidPassword</b><br>Test class: Login.LoginTests</td>
+<td></td>
+<td>1</td>
+<td>Login.LoginTests@229f66ed</td></tr>
+<tr>
+<td title='checkBoxTest.CheckBoxTests.testCheckBoxOne()'><b>testCheckBoxOne</b><br>Test class: checkBoxTest.CheckBoxTests</td>
+<td></td>
+<td>0</td>
+<td>checkBoxTest.CheckBoxTests@6aeb35e6</td></tr>
+<tr>
+<td title='dragAndDrop.DragAndDropTests.testDragAndDropBToA()'><b>testDragAndDropBToA</b><br>Test class: dragAndDrop.DragAndDropTests</td>
+<td></td>
+<td>0</td>
+<td>dragAndDrop.DragAndDropTests@4562e04d</td></tr>
+<tr>
+<td title='wait.DynamicLoadingTests.testExampleOne()'><b>testExampleOne</b><br>Test class: wait.DynamicLoadingTests</td>
+<td></td>
+<td>5</td>
+<td>wait.DynamicLoadingTests@40005471</td></tr>
+<tr>
+<td title='alerts.AlertsTests.testDismissAlertByButton2()'><b>testDismissAlertByButton2</b><br>Test class: alerts.AlertsTests</td>
+<td></td>
+<td>0</td>
+<td>alerts.AlertsTests@6069db50</td></tr>
+<tr>
+<td title='statusCodeTest.StatusCodeTests.testStatusCode301()'><b>testStatusCode301</b><br>Test class: statusCodeTest.StatusCodeTests</td>
+<td></td>
+<td>0</td>
+<td>statusCodeTest.StatusCodeTests@4116aac9</td></tr>
+<tr>
+<td title='frame.FrameTests.testFrame()'><b>testFrame</b><br>Test class: frame.FrameTests</td>
+<td></td>
+<td>0</td>
+<td>frame.FrameTests@22555ebf</td></tr>
+<tr>
+<td title='dropDown.DropDownTests.testSelectOptionOneByVisibleText()'><b>testSelectOptionOneByVisibleText</b><br>Test class: dropDown.DropDownTests</td>
+<td></td>
+<td>0</td>
+<td>dropDown.DropDownTests@1aafa419</td></tr>
+<tr>
+<td title='alerts.AlertsTests.testAcceptAlertByButton2()'><b>testAcceptAlertByButton2</b><br>Test class: alerts.AlertsTests</td>
+<td></td>
+<td>0</td>
+<td>alerts.AlertsTests@6069db50</td></tr>
+<tr>
+<td title='forGetPassword.ForgetPasswordTest.testForgetPasswordWithoutData()'><b>testForgetPasswordWithoutData</b><br>Test class: forGetPassword.ForgetPasswordTest</td>
+<td></td>
+<td>0</td>
+<td>forGetPassword.ForgetPasswordTest@36fc695d</td></tr>
+<tr>
+<td title='statusCodeTest.StatusCodeTests.testStatusCode500()'><b>testStatusCode500</b><br>Test class: statusCodeTest.StatusCodeTests</td>
+<td></td>
+<td>0</td>
+<td>statusCodeTest.StatusCodeTests@4116aac9</td></tr>
+<tr>
+<td title='alerts.AlertsTests.testSendYesAlertByButton3()'><b>testSendYesAlertByButton3</b><br>Test class: alerts.AlertsTests</td>
+<td></td>
+<td>0</td>
+<td>alerts.AlertsTests@6069db50</td></tr>
+<tr>
+<td title='forGetPassword.ForgetPasswordTest.testForgetPasswordWithData()'><b>testForgetPasswordWithData</b><br>Test class: forGetPassword.ForgetPasswordTest</td>
+<td></td>
+<td>0</td>
+<td>forGetPassword.ForgetPasswordTest@36fc695d</td></tr>
+<tr>
+<td title='alerts.AlertsTests.testAcceptAlertByButton1()'><b>testAcceptAlertByButton1</b><br>Test class: alerts.AlertsTests</td>
+<td></td>
+<td>0</td>
+<td>alerts.AlertsTests@6069db50</td></tr>
+<tr>
+<td title='dropDown.DropDownTests.testSelectOptionOneByValue()'><b>testSelectOptionOneByValue</b><br>Test class: dropDown.DropDownTests</td>
+<td></td>
+<td>0</td>
+<td>dropDown.DropDownTests@1aafa419</td></tr>
+<tr>
+<td title='Login.LoginTests.testInvalidUsername()'><b>testInvalidUsername</b><br>Test class: Login.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>Login.LoginTests@229f66ed</td></tr>
+<tr>
+<td title='hovers.HoversTests.testUserData()'><b>testUserData</b><br>Test class: hovers.HoversTests</td>
+<td></td>
+<td>0</td>
+<td>hovers.HoversTests@3b69e7d1</td></tr>
+<tr>
+<td title='fileUploadTest.FileUploadTests.testUploadFile()'><b>testUploadFile</b><br>Test class: fileUploadTest.FileUploadTests</td>
+<td></td>
+<td>0</td>
+<td>fileUploadTest.FileUploadTests@78691363</td></tr>
+<tr>
+<td title='statusCodeTest.StatusCodeTests.testStatusCode200()'><b>testStatusCode200</b><br>Test class: statusCodeTest.StatusCodeTests</td>
+<td></td>
+<td>0</td>
+<td>statusCodeTest.StatusCodeTests@4116aac9</td></tr>
+<tr>
+<td title='checkBoxTest.CheckBoxTests.testCheckBoxTow()'><b>testCheckBoxTow</b><br>Test class: checkBoxTest.CheckBoxTests</td>
+<td></td>
+<td>0</td>
+<td>checkBoxTest.CheckBoxTests@6aeb35e6</td></tr>
+<tr>
+<td title='dropDown.DropDownTests.testSelectOptionOneByIndex()'><b>testSelectOptionOneByIndex</b><br>Test class: dropDown.DropDownTests</td>
+<td></td>
+<td>0</td>
+<td>dropDown.DropDownTests@1aafa419</td></tr>
+<tr>
+<td title='statusCodeTest.StatusCodeTests.testStatusCode404()'><b>testStatusCode404</b><br>Test class: statusCodeTest.StatusCodeTests</td>
+<td></td>
+<td>0</td>
+<td>statusCodeTest.StatusCodeTests@4116aac9</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="26" passed="26" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-29T05:56:13 EEST" name="AllTestsSuite" finished-at="2025-06-29T05:57:15 EEST" duration-ms="61644">
+    <groups>
+    </groups>
+    <test started-at="2025-06-29T05:56:13 EEST" name="Automation Test Suite" finished-at="2025-06-29T05:57:15 EEST" duration-ms="61644">
+      <class name="Login.LoginTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Login.LoginTests@229f66ed]" started-at="2025-06-29T05:56:46 EEST" name="setUp" finished-at="2025-06-29T05:56:47 EEST" duration-ms="768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:Login.LoginTests@229f66ed]" started-at="2025-06-29T05:56:47 EEST" name="goHome" finished-at="2025-06-29T05:56:49 EEST" duration-ms="1979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testInvalidPassword()[pri:0, instance:Login.LoginTests@229f66ed]" started-at="2025-06-29T05:56:49 EEST" name="testInvalidPassword" finished-at="2025-06-29T05:56:50 EEST" duration-ms="1115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidPassword -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:Login.LoginTests@229f66ed]" started-at="2025-06-29T05:56:50 EEST" name="goHome" finished-at="2025-06-29T05:56:50 EEST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testInvalidUsername()[pri:0, instance:Login.LoginTests@229f66ed]" started-at="2025-06-29T05:56:50 EEST" name="testInvalidUsername" finished-at="2025-06-29T05:56:51 EEST" duration-ms="872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidUsername -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:Login.LoginTests@229f66ed]" started-at="2025-06-29T05:56:51 EEST" name="goHome" finished-at="2025-06-29T05:56:52 EEST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testvalidUsernameandPassword()[pri:0, instance:Login.LoginTests@229f66ed]" started-at="2025-06-29T05:56:52 EEST" name="testvalidUsernameandPassword" finished-at="2025-06-29T05:56:52 EEST" duration-ms="855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testvalidUsernameandPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Login.LoginTests@229f66ed]" started-at="2025-06-29T05:56:52 EEST" name="tearDown" finished-at="2025-06-29T05:56:52 EEST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Login.LoginTests -->
+      <class name="frame.FrameTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:frame.FrameTests@22555ebf]" started-at="2025-06-29T05:56:38 EEST" name="setUp" finished-at="2025-06-29T05:56:39 EEST" duration-ms="771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:frame.FrameTests@22555ebf]" started-at="2025-06-29T05:56:39 EEST" name="goHome" finished-at="2025-06-29T05:56:43 EEST" duration-ms="3562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testFrame()[pri:0, instance:frame.FrameTests@22555ebf]" started-at="2025-06-29T05:56:43 EEST" name="testFrame" finished-at="2025-06-29T05:56:43 EEST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFrame -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:frame.FrameTests@22555ebf]" started-at="2025-06-29T05:56:43 EEST" name="tearDown" finished-at="2025-06-29T05:56:43 EEST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- frame.FrameTests -->
+      <class name="wait.DynamicLoadingTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:wait.DynamicLoadingTests@40005471]" started-at="2025-06-29T05:56:59 EEST" name="setUp" finished-at="2025-06-29T05:57:00 EEST" duration-ms="782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:wait.DynamicLoadingTests@40005471]" started-at="2025-06-29T05:57:00 EEST" name="goHome" finished-at="2025-06-29T05:57:02 EEST" duration-ms="1859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testExampleOne()[pri:0, instance:wait.DynamicLoadingTests@40005471]" started-at="2025-06-29T05:57:02 EEST" name="testExampleOne" finished-at="2025-06-29T05:57:08 EEST" duration-ms="5646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExampleOne -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:wait.DynamicLoadingTests@40005471]" started-at="2025-06-29T05:57:08 EEST" name="goHome" finished-at="2025-06-29T05:57:08 EEST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testExampleTwo()[pri:0, instance:wait.DynamicLoadingTests@40005471]" started-at="2025-06-29T05:57:08 EEST" name="testExampleTwo" finished-at="2025-06-29T05:57:14 EEST" duration-ms="5788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExampleTwo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:wait.DynamicLoadingTests@40005471]" started-at="2025-06-29T05:57:14 EEST" name="tearDown" finished-at="2025-06-29T05:57:15 EEST" duration-ms="843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- wait.DynamicLoadingTests -->
+      <class name="hovers.HoversTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:hovers.HoversTests@3b69e7d1]" started-at="2025-06-29T05:56:43 EEST" name="setUp" finished-at="2025-06-29T05:56:44 EEST" duration-ms="784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:hovers.HoversTests@3b69e7d1]" started-at="2025-06-29T05:56:44 EEST" name="goHome" finished-at="2025-06-29T05:56:46 EEST" duration-ms="1832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testUserData()[pri:0, instance:hovers.HoversTests@3b69e7d1]" started-at="2025-06-29T05:56:46 EEST" name="testUserData" finished-at="2025-06-29T05:56:46 EEST" duration-ms="574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:hovers.HoversTests@3b69e7d1]" started-at="2025-06-29T05:56:46 EEST" name="tearDown" finished-at="2025-06-29T05:56:46 EEST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hovers.HoversTests -->
+      <class name="statusCodeTest.StatusCodeTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:statusCodeTest.StatusCodeTests@4116aac9]" started-at="2025-06-29T05:56:52 EEST" name="setUp" finished-at="2025-06-29T05:56:53 EEST" duration-ms="786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:statusCodeTest.StatusCodeTests@4116aac9]" started-at="2025-06-29T05:56:53 EEST" name="goHome" finished-at="2025-06-29T05:56:57 EEST" duration-ms="3550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testStatusCode200()[pri:0, instance:statusCodeTest.StatusCodeTests@4116aac9]" started-at="2025-06-29T05:56:57 EEST" name="testStatusCode200" finished-at="2025-06-29T05:56:57 EEST" duration-ms="523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatusCode200 -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:statusCodeTest.StatusCodeTests@4116aac9]" started-at="2025-06-29T05:56:57 EEST" name="goHome" finished-at="2025-06-29T05:56:58 EEST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testStatusCode301()[pri:0, instance:statusCodeTest.StatusCodeTests@4116aac9]" started-at="2025-06-29T05:56:58 EEST" name="testStatusCode301" finished-at="2025-06-29T05:56:58 EEST" duration-ms="473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatusCode301 -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:statusCodeTest.StatusCodeTests@4116aac9]" started-at="2025-06-29T05:56:58 EEST" name="goHome" finished-at="2025-06-29T05:56:58 EEST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testStatusCode404()[pri:0, instance:statusCodeTest.StatusCodeTests@4116aac9]" started-at="2025-06-29T05:56:58 EEST" name="testStatusCode404" finished-at="2025-06-29T05:56:59 EEST" duration-ms="458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatusCode404 -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:statusCodeTest.StatusCodeTests@4116aac9]" started-at="2025-06-29T05:56:59 EEST" name="goHome" finished-at="2025-06-29T05:56:59 EEST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testStatusCode500()[pri:0, instance:statusCodeTest.StatusCodeTests@4116aac9]" started-at="2025-06-29T05:56:59 EEST" name="testStatusCode500" finished-at="2025-06-29T05:56:59 EEST" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatusCode500 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:statusCodeTest.StatusCodeTests@4116aac9]" started-at="2025-06-29T05:56:59 EEST" name="tearDown" finished-at="2025-06-29T05:56:59 EEST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- statusCodeTest.StatusCodeTests -->
+      <class name="dropDown.DropDownTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dropDown.DropDownTests@1aafa419]" started-at="2025-06-29T05:56:26 EEST" name="setUp" finished-at="2025-06-29T05:56:27 EEST" duration-ms="769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:dropDown.DropDownTests@1aafa419]" started-at="2025-06-29T05:56:27 EEST" name="goHome" finished-at="2025-06-29T05:56:28 EEST" duration-ms="1952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testSelectOptionOneByIndex()[pri:0, instance:dropDown.DropDownTests@1aafa419]" started-at="2025-06-29T05:56:28 EEST" name="testSelectOptionOneByIndex" finished-at="2025-06-29T05:56:29 EEST" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectOptionOneByIndex -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:dropDown.DropDownTests@1aafa419]" started-at="2025-06-29T05:56:29 EEST" name="goHome" finished-at="2025-06-29T05:56:29 EEST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testSelectOptionOneByValue()[pri:0, instance:dropDown.DropDownTests@1aafa419]" started-at="2025-06-29T05:56:29 EEST" name="testSelectOptionOneByValue" finished-at="2025-06-29T05:56:29 EEST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectOptionOneByValue -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:dropDown.DropDownTests@1aafa419]" started-at="2025-06-29T05:56:29 EEST" name="goHome" finished-at="2025-06-29T05:56:29 EEST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testSelectOptionOneByVisibleText()[pri:0, instance:dropDown.DropDownTests@1aafa419]" started-at="2025-06-29T05:56:29 EEST" name="testSelectOptionOneByVisibleText" finished-at="2025-06-29T05:56:30 EEST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectOptionOneByVisibleText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dropDown.DropDownTests@1aafa419]" started-at="2025-06-29T05:56:30 EEST" name="tearDown" finished-at="2025-06-29T05:56:30 EEST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dropDown.DropDownTests -->
+      <class name="alerts.AlertsTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:alerts.AlertsTests@6069db50]" started-at="2025-06-29T05:56:13 EEST" name="setUp" finished-at="2025-06-29T05:56:14 EEST" duration-ms="1218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:alerts.AlertsTests@6069db50]" started-at="2025-06-29T05:56:14 EEST" name="goHome" finished-at="2025-06-29T05:56:16 EEST" duration-ms="2183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testAcceptAlertByButton1()[pri:0, instance:alerts.AlertsTests@6069db50]" started-at="2025-06-29T05:56:16 EEST" name="testAcceptAlertByButton1" finished-at="2025-06-29T05:56:17 EEST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAcceptAlertByButton1 -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:alerts.AlertsTests@6069db50]" started-at="2025-06-29T05:56:17 EEST" name="goHome" finished-at="2025-06-29T05:56:17 EEST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testAcceptAlertByButton2()[pri:0, instance:alerts.AlertsTests@6069db50]" started-at="2025-06-29T05:56:17 EEST" name="testAcceptAlertByButton2" finished-at="2025-06-29T05:56:17 EEST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAcceptAlertByButton2 -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:alerts.AlertsTests@6069db50]" started-at="2025-06-29T05:56:17 EEST" name="goHome" finished-at="2025-06-29T05:56:17 EEST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testDismissAlertByButton2()[pri:0, instance:alerts.AlertsTests@6069db50]" started-at="2025-06-29T05:56:17 EEST" name="testDismissAlertByButton2" finished-at="2025-06-29T05:56:18 EEST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDismissAlertByButton2 -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:alerts.AlertsTests@6069db50]" started-at="2025-06-29T05:56:18 EEST" name="goHome" finished-at="2025-06-29T05:56:18 EEST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testSendYesAlertByButton3()[pri:0, instance:alerts.AlertsTests@6069db50]" started-at="2025-06-29T05:56:18 EEST" name="testSendYesAlertByButton3" finished-at="2025-06-29T05:56:18 EEST" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSendYesAlertByButton3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:alerts.AlertsTests@6069db50]" started-at="2025-06-29T05:56:18 EEST" name="tearDown" finished-at="2025-06-29T05:56:18 EEST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- alerts.AlertsTests -->
+      <class name="forGetPassword.ForgetPasswordTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:forGetPassword.ForgetPasswordTest@36fc695d]" started-at="2025-06-29T05:56:34 EEST" name="setUp" finished-at="2025-06-29T05:56:35 EEST" duration-ms="764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:forGetPassword.ForgetPasswordTest@36fc695d]" started-at="2025-06-29T05:56:35 EEST" name="goHome" finished-at="2025-06-29T05:56:37 EEST" duration-ms="1886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testForgetPasswordWithData()[pri:0, instance:forGetPassword.ForgetPasswordTest@36fc695d]" started-at="2025-06-29T05:56:37 EEST" name="testForgetPasswordWithData" finished-at="2025-06-29T05:56:38 EEST" duration-ms="757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgetPasswordWithData -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:forGetPassword.ForgetPasswordTest@36fc695d]" started-at="2025-06-29T05:56:38 EEST" name="goHome" finished-at="2025-06-29T05:56:38 EEST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testForgetPasswordWithoutData()[pri:0, instance:forGetPassword.ForgetPasswordTest@36fc695d]" started-at="2025-06-29T05:56:38 EEST" name="testForgetPasswordWithoutData" finished-at="2025-06-29T05:56:38 EEST" duration-ms="464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgetPasswordWithoutData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:forGetPassword.ForgetPasswordTest@36fc695d]" started-at="2025-06-29T05:56:38 EEST" name="tearDown" finished-at="2025-06-29T05:56:38 EEST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- forGetPassword.ForgetPasswordTest -->
+      <class name="dragAndDrop.DragAndDropTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dragAndDrop.DragAndDropTests@4562e04d]" started-at="2025-06-29T05:56:22 EEST" name="setUp" finished-at="2025-06-29T05:56:23 EEST" duration-ms="770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:dragAndDrop.DragAndDropTests@4562e04d]" started-at="2025-06-29T05:56:23 EEST" name="goHome" finished-at="2025-06-29T05:56:24 EEST" duration-ms="1897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testDragAndDropAToB()[pri:0, instance:dragAndDrop.DragAndDropTests@4562e04d]" started-at="2025-06-29T05:56:24 EEST" name="testDragAndDropAToB" finished-at="2025-06-29T05:56:25 EEST" duration-ms="516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDragAndDropAToB -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:dragAndDrop.DragAndDropTests@4562e04d]" started-at="2025-06-29T05:56:25 EEST" name="goHome" finished-at="2025-06-29T05:56:25 EEST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testDragAndDropBToA()[pri:0, instance:dragAndDrop.DragAndDropTests@4562e04d]" started-at="2025-06-29T05:56:25 EEST" name="testDragAndDropBToA" finished-at="2025-06-29T05:56:26 EEST" duration-ms="475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDragAndDropBToA -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dragAndDrop.DragAndDropTests@4562e04d]" started-at="2025-06-29T05:56:26 EEST" name="tearDown" finished-at="2025-06-29T05:56:26 EEST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dragAndDrop.DragAndDropTests -->
+      <class name="fileUploadTest.FileUploadTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:fileUploadTest.FileUploadTests@78691363]" started-at="2025-06-29T05:56:30 EEST" name="setUp" finished-at="2025-06-29T05:56:31 EEST" duration-ms="758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:fileUploadTest.FileUploadTests@78691363]" started-at="2025-06-29T05:56:31 EEST" name="goHome" finished-at="2025-06-29T05:56:33 EEST" duration-ms="2049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testUploadFile()[pri:0, instance:fileUploadTest.FileUploadTests@78691363]" started-at="2025-06-29T05:56:33 EEST" name="testUploadFile" finished-at="2025-06-29T05:56:34 EEST" duration-ms="825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUploadFile -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:fileUploadTest.FileUploadTests@78691363]" started-at="2025-06-29T05:56:34 EEST" name="goHome" finished-at="2025-06-29T05:56:34 EEST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testUploadFileFail()[pri:0, instance:fileUploadTest.FileUploadTests@78691363]" started-at="2025-06-29T05:56:34 EEST" name="testUploadFileFail" finished-at="2025-06-29T05:56:34 EEST" duration-ms="460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUploadFileFail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:fileUploadTest.FileUploadTests@78691363]" started-at="2025-06-29T05:56:34 EEST" name="tearDown" finished-at="2025-06-29T05:56:34 EEST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- fileUploadTest.FileUploadTests -->
+      <class name="checkBoxTest.CheckBoxTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:checkBoxTest.CheckBoxTests@6aeb35e6]" started-at="2025-06-29T05:56:18 EEST" name="setUp" finished-at="2025-06-29T05:56:19 EEST" duration-ms="782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:checkBoxTest.CheckBoxTests@6aeb35e6]" started-at="2025-06-29T05:56:19 EEST" name="goHome" finished-at="2025-06-29T05:56:21 EEST" duration-ms="1856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testCheckBoxOne()[pri:0, instance:checkBoxTest.CheckBoxTests@6aeb35e6]" started-at="2025-06-29T05:56:21 EEST" name="testCheckBoxOne" finished-at="2025-06-29T05:56:21 EEST" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckBoxOne -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:checkBoxTest.CheckBoxTests@6aeb35e6]" started-at="2025-06-29T05:56:21 EEST" name="goHome" finished-at="2025-06-29T05:56:21 EEST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testCheckBoxTow()[pri:0, instance:checkBoxTest.CheckBoxTests@6aeb35e6]" started-at="2025-06-29T05:56:21 EEST" name="testCheckBoxTow" finished-at="2025-06-29T05:56:22 EEST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckBoxTow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:checkBoxTest.CheckBoxTests@6aeb35e6]" started-at="2025-06-29T05:56:22 EEST" name="tearDown" finished-at="2025-06-29T05:56:22 EEST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- checkBoxTest.CheckBoxTests -->
+    </test> <!-- Automation Test Suite -->
+  </suite> <!-- AllTestsSuite -->
+</testng-results>
